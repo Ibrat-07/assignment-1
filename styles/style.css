@@ -28,7 +28,7 @@ body {
     border: none;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 20px 43gpx;
     cursor: pointer;
 }
 .opening-statement {
@@ -65,7 +65,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 .para {
     color: rgba(39, 39, 39, 0.60);
@@ -75,7 +75,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .container {
     display: flex;
@@ -190,7 +190,7 @@ body {
     height: 88px;
   }
   
-  .picture-info p {
+  .picture-info {
     margin-top: 10px;
     text-align: center;
   }
@@ -283,6 +283,63 @@ line-height: normal;
   display: flex;
   gap: 10px;
 justify-content: center;
+}
+.submit{
+  width: 1400px;
+  height: 449px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto; 
+  background: url(/assets/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+.deals{
+padding-top: 100px;  
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.coupon{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.desgin02{
+  display: flex;
+  gap: 10px;
+}
+.email{  
+justify-content: center;
+margin-left: 300px;
+width: 700px;
+height: 54px;
+flex-shrink: 0;
+border: 1px solid #ffffff;
+border-radius: 8px;
+background: #FFF;
+}
+.btn-primary-3{
+width: 150px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #E55473;
+background: #E55473;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
 }
 footer{
 width: 100%;
